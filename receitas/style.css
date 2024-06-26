@@ -136,3 +136,8 @@ footer {
     padding: 0;    
 
 }
+
+.texto{
+    display: flex;
+    align-items:center;
+}
