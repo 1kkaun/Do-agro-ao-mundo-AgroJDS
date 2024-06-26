@@ -163,7 +163,7 @@ header ul li a{
 footer {
     width: 100%;
     font-family: 'Courier New', Courier, monospace;
-    color: rgb(58, 163, 55);
+    color: rgb(17 83 15);
     text-align: center;
     
 }
@@ -196,15 +196,15 @@ footer {
 
 
 #footer_turma p{
-    color: rgb(255, 255, 255);
+    color: rgb(161 160 160);
 
 }
 
 #footer_copyright{
     display: flex;
-    color: white;
+    color:#00ff2d;
     justify-content:center;
-    background-color:rgb(66, 66, 66);
+    background-color:rgb(28 28 28);
     
     padding: 10px;
     font-weight: 1;
