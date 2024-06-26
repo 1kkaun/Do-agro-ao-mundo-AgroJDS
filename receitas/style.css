@@ -20,14 +20,6 @@ img{
     height: 120px;
 }
 
-
-.graficos{
-    height: 100%;
-    margin: 0 505px;
-    padding: 5px;
-}
-
-
 .container{
     max-width: 1280px;
     margin: auto;
@@ -81,70 +73,6 @@ header ul li{
 header ul li a{
     color: rgb(255, 255, 255);
     text-decoration: none;
-}
-
-.banner{
-    height: 100vh;
-    background-image: url(img/agro.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    display: flex;
-    align-items:center;
-
-}
-
-.banner h1{
-    font-size: 55px;
-    color: white;
-    padding: 0 55px;
-}
-
-.banner h2{
-    font-size: 30px;
-    color: rgb(255, 255, 255);
-    padding: 0 15px;
-    background-color: rgba(1, 12, 3, 0.568);
-    border-radius: 30px;
-}
-
-
-.texto h2{
-    color: rgb(53, 187, 53);
-    font-size: 35px;
-    display: flex;
-    align-items:center;
-    justify-content:center;
-    padding: 50px 3%;
-}
-
-.texto h3 {
-    color: rgb(122, 122, 122);
-    font-size: 25px;
-    display: flex;
-    align-items:center;
-    justify-content:center;
-    padding: 50px 5%;
-}
-
-.vermais{
-    display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
-.vermais button{
-    text-align: center;
-    width: 200px;
-    height: 100px;
-    font-size: 20px;
-    border: 0;
-    background-color: rgb(134, 134, 134);
-    border-radius: 30px;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    transition: .2s;
 }
 
 
