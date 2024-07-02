@@ -16,21 +16,6 @@ body{
 }
 
 
-img{
-    height: 120px;
-}
-
-.container{
-    max-width: 1280px;
-    margin: auto;
-}
-
-.flex{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 header{
     width: 100%;
     padding: 50px 4%;
@@ -75,6 +60,20 @@ header ul li a{
     text-decoration: none;
 }
 
+img{
+    height: 120px;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 footer {
     width: 100%;
