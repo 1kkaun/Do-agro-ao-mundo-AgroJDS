@@ -16,6 +16,21 @@ body{
 }
 
 
+img{
+    height: 120px;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 header{
     width: 100%;
     padding: 50px 4%;
@@ -42,7 +57,7 @@ header.rolagem button{
 
 header i{
     font-size: 30px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 header ul{
@@ -56,24 +71,10 @@ header ul li{
 }
 
 header ul li a{
-    color: rgb(255, 255, 255);
+    color: rgb(2, 2, 2);
     text-decoration: none;
 }
 
-img{
-    height: 120px;
-}
-
-.container{
-    max-width: 1280px;
-    margin: auto;
-}
-
-.flex{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
 footer {
     width: 100%;
@@ -101,7 +102,6 @@ footer {
 
 
 #footer_turma{
-    display: flex;
     background-color: rgb(6, 15, 5);
     box-shadow: 0 5px 10px rgba(0,0,0,.1);
     flex-direction:column;
@@ -116,7 +116,6 @@ footer {
 }
 
 #footer_copyright{
-    display: flex;
     color:#00ff2d;
     justify-content:center;
     background-color:rgb(28 28 28);
@@ -137,6 +136,7 @@ footer {
 }
 
 .texto{
-   
-    
+    height: 50vh;
+    width: 980px;
+    text-align: center;
 }
