@@ -3,106 +3,184 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Poppins';
+    font-family:'Poppins', sans-serif;
     
 }
 
-span{
-    color: rgb(136, 255, 0);
-}
 
 body{
+
     background-color: rgb(255, 255, 255);
 }
+
+nav.menu-lateral{
+    width: 80px;
+    height: 100%;
+    background-color: rgb(15, 15, 15);
+    padding: 40px 0px 40px 1%;
+    box-shadow: 3px 0 0 rgb(17 83 15);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+
+nav.menu-lateral:hover{
+    width: 300px;
+}
+
+.btn-expandir{
+    width: 100%;
+    padding-left: 10px;
+
+}
+
+.btn-expandir i{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu{
+    transition: .2s;
+}
+
+ul li.ativo{
+    background-color: rgb(17 83 15);
+}
+
+ul li.item-menu:hover{
+    background-color: rgb(17 83 15);
+
+}
+
+
+ul li.item-menu a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    line-height: 39px;
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 35px;
+}
+
+ul li.item-menu a .icon i{
+    font-size: 30px;
+    margin-left: 5px;
+}
+
 
 
 img{
     height: 120px;
 }
 
-.container{
-    max-width: 1280px;
-    margin: auto;
+
+.graficos{
+    height: 100%;
+    padding: 0 10%;
 }
 
-.flex{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+
+
+.banner{
+    height: 100vh;
+    background-image: url(img/agro.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-header{
-    width: 100%;
-    padding: 50px 4%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    transition: .5s;
+.txt-inicio{
+    text-align: center;
+
 }
 
-header.rolagem{
-    background-color:rgb(7, 63, 0);
-    box-shadow: 0 2px 13px rgba(0, 0, 0, 0.5);
-    padding: 20px 4%;
+.txt-inicio h1{
+    font-size: 45px;
+    color: white;
+    padding: 70px 10%;
 }
 
-header.rolagem a, header.rolagem i{
+.txt-inicio p{
+    font-size: 25px;
     color: rgb(255, 255, 255);
+    padding: 70px 10%;
+    background-color: rgb(14, 14, 14);
+    box-shadow: 10px 10px 20px black;
 }
 
-header.rolagem button{
-    background-color: rgb(255, 255, 255);
-    color:  rgb(7, 63, 0);
+.txt-inicio span{
+    color: rgb(53, 187, 53);
 }
 
-header i{
-    font-size: 30px;
-    color: rgb(0, 0, 0);
+.texto h3{
+    color: rgb(53, 187, 53);
+    font-size: 35px;
+    
+    align-items:center;
+    justify-content:center;
+    padding: 50px 10%;
 }
 
-header ul{
-    list-style-type: none;
+.texto h2 {
+    color: rgb(211, 209, 209);
+    background-color: rgb(12, 59, 11);
+    font-size: 17px;
+    align-items:center;
+    justify-content:center;
+    padding: 15px 10%;
+    border-radius: 35px;
 }
 
-header ul li{
-    font-size: 23px;
-    display: inline-block;
-    margin: 0 40px;
+.vermais{
+    display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
-header ul li a{
-    color: rgb(2, 2, 2);
-    text-decoration: none;
+.vermais button{
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    font-size: 20px;
+    border: 0;
+    background-color: rgb(17 83 15);
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: .2s;
 }
 
 
 footer {
     width: 100%;
     font-family: 'Courier New', Courier, monospace;
-    color: rgb(17 83 15);
+    color:rgb(82, 81, 81);
     text-align: center;
     
 }
 
-
-.footer-link {
-    text-decoration: none;
-}
-
 #footer_content{
-    background-color:black;
     display:block;
     grid-template-columns: repeat(4,1fr);
 
 }
 
-#footer_contacts h1{
-    margin-bottom: 0.60rem;
-}
-
-
 #footer_turma{
-    background-color: rgb(6, 15, 5);
+    display: flex;
+    background-color: rgb(14, 14, 14);
     box-shadow: 0 5px 10px rgba(0,0,0,.1);
     flex-direction:column;
     gap: 1.5rem;
@@ -116,9 +194,10 @@ footer {
 }
 
 #footer_copyright{
-    color:#00ff2d;
+    display: flex;
+    color:#ffffff;
     justify-content:center;
-    background-color:rgb(28 28 28);
+    background-color:rgb(46, 46, 46);
     
     padding: 10px;
     font-weight: 1;
@@ -133,9 +212,4 @@ footer {
     margin: 0;
     padding: 0;    
 
-}
-
-.texto{
-    
-    text-align: center;
 }
