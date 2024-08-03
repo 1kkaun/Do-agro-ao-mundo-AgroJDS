@@ -3,17 +3,83 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Poppins';
+    font-family:'Poppins', sans-serif;
     
 }
 
-span{
-    color: rgb(136, 255, 0);
-}
 
 body{
+
     background-color: rgb(255, 255, 255);
 }
+
+nav.menu-lateral{
+    width: 80px;
+    height: 100%;
+    background-color: rgb(15, 15, 15);
+    padding: 40px 0px 40px 1%;
+    box-shadow: 3px 0 0 rgb(17 83 15);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+
+nav.menu-lateral:hover{
+    width: 300px;
+}
+
+.btn-expandir{
+    width: 100%;
+    padding-left: 10px;
+
+}
+
+.btn-expandir i{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu{
+    transition: .2s;
+}
+
+ul li.ativo{
+    background-color: rgb(17 83 15);
+}
+
+ul li.item-menu:hover{
+    background-color: rgb(17 83 15);
+
+}
+
+
+ul li.item-menu a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    line-height: 39px;
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 35px;
+}
+
+ul li.item-menu a .icon i{
+    font-size: 30px;
+    margin-left: 5px;
+}
+
 
 
 img{
@@ -23,65 +89,10 @@ img{
 
 .graficos{
     height: 100%;
-    margin: 0 505px;
-    padding: 5px;
+    padding: 0 10%;
 }
 
 
-.container{
-    max-width: 1280px;
-    margin: auto;
-}
-
-.flex{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-header{
-    width: 100%;
-    padding: 50px 4%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    transition: .5s;
-}
-
-header.rolagem{
-    background-color:rgb(7, 63, 0);
-    box-shadow: 0 2px 13px rgba(0, 0, 0, 0.5);
-    padding: 20px 4%;
-}
-
-header.rolagem a, header.rolagem i{
-    color: rgb(255, 255, 255);
-}
-
-header.rolagem button{
-    background-color: rgb(255, 255, 255);
-    color:  rgb(7, 63, 0);
-}
-
-header i{
-    font-size: 30px;
-    color: rgb(255, 255, 255);
-}
-
-header ul{
-    list-style-type: none;
-}
-
-header ul li{
-    font-size: 23px;
-    display: inline-block;
-    margin: 0 40px;
-}
-
-header ul li a{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
 
 .banner{
     height: 100vh;
@@ -89,43 +100,48 @@ header ul li a{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
 
-    display: flex;
-    align-items:center;
+.txt-inicio{
+    text-align: center;
 
 }
 
-.banner h1{
-    font-size: 55px;
+.txt-inicio h1{
+    font-size: 45px;
     color: white;
-    padding: 0 55px;
+    padding: 70px 10%;
 }
 
-.banner h2{
-    font-size: 30px;
+.txt-inicio p{
+    font-size: 25px;
     color: rgb(255, 255, 255);
-    padding: 0 15px;
-    background-color: rgba(1, 12, 3, 0.568);
-    border-radius: 30px;
+    padding: 70px 10%;
+    background-color: rgb(14, 14, 14);
+    box-shadow: 10px 10px 20px black;
 }
 
+.txt-inicio span{
+    color: rgb(53, 187, 53);
+}
 
-.texto h2{
+.texto h3{
     color: rgb(53, 187, 53);
     font-size: 35px;
-    display: flex;
+    
     align-items:center;
     justify-content:center;
-    padding: 50px 3%;
+    padding: 50px 10%;
 }
 
-.texto h3 {
-    color: rgb(122, 122, 122);
-    font-size: 25px;
-    display: flex;
+.texto h2 {
+    color: rgb(211, 209, 209);
+    background-color: rgb(12, 59, 11);
+    font-size: 17px;
     align-items:center;
     justify-content:center;
-    padding: 50px 5%;
+    padding: 15px 10%;
+    border-radius: 35px;
 }
 
 .vermais{
@@ -140,8 +156,8 @@ header ul li a{
     height: 100px;
     font-size: 20px;
     border: 0;
-    background-color: rgb(134, 134, 134);
-    border-radius: 30px;
+    background-color: rgb(17 83 15);
+    border-radius: 20px;
     color: rgb(255, 255, 255);
     cursor: pointer;
     transition: .2s;
@@ -151,31 +167,20 @@ header ul li a{
 footer {
     width: 100%;
     font-family: 'Courier New', Courier, monospace;
-    color: rgb(17 83 15);
+    color:rgb(82, 81, 81);
     text-align: center;
     
 }
 
-
-.footer-link {
-    text-decoration: none;
-}
-
 #footer_content{
-    background-color:black;
     display:block;
     grid-template-columns: repeat(4,1fr);
 
 }
 
-#footer_contacts h1{
-    margin-bottom: 0.60rem;
-}
-
-
 #footer_turma{
     display: flex;
-    background-color: rgb(6, 15, 5);
+    background-color: rgb(14, 14, 14);
     box-shadow: 0 5px 10px rgba(0,0,0,.1);
     flex-direction:column;
     gap: 1.5rem;
@@ -190,9 +195,9 @@ footer {
 
 #footer_copyright{
     display: flex;
-    color:#00ff2d;
+    color:#ffffff;
     justify-content:center;
-    background-color:rgb(28 28 28);
+    background-color:rgb(46, 46, 46);
     
     padding: 10px;
     font-weight: 1;
