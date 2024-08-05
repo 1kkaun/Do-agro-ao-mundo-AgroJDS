@@ -89,13 +89,23 @@ img{
 
 .graficos{
     height: 100%;
-    padding: 0 10%;
+    padding: 20px 15%;
 }
 
+h1{
+    text-align: center;
+}
 
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
 
 .banner{
-    height: 100vh;
+    height: 100%;
     background-image: url(img/agro.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -110,7 +120,26 @@ img{
 .txt-inicio h1{
     font-size: 45px;
     color: white;
-    padding: 70px 10%;
+    padding: 50px 15%;
+}
+
+.txt-inicio h2 {
+    color: rgb(236, 235, 235);
+    background-color: rgb(12, 59, 11);
+    font-size: 20px;
+    align-items:center;
+    justify-content:center;
+    padding: 15px 10%;
+    border-radius: 35px;
+}
+
+.txt-inicio h3{
+    color: rgb(53, 187, 53);
+    font-size: 35px;
+    
+    align-items:center;
+    justify-content:center;
+    padding: 10px 10%;
 }
 
 .txt-inicio p{
@@ -125,13 +154,14 @@ img{
     color: rgb(53, 187, 53);
 }
 
+
 .texto h3{
     color: rgb(53, 187, 53);
     font-size: 35px;
     
     align-items:center;
     justify-content:center;
-    padding: 50px 10%;
+    padding: 40px 15%;
 }
 
 .texto h2 {
@@ -140,7 +170,7 @@ img{
     font-size: 17px;
     align-items:center;
     justify-content:center;
-    padding: 15px 10%;
+    padding: 0 10%;
     border-radius: 35px;
 }
 
