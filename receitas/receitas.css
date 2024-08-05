@@ -7,11 +7,34 @@
     
 }
 
+.texto .corDeFundo h1{
+    color: white;
+     background-color: black;
+}
 
 body{
 
     background-color: rgb(255, 255, 255);
 }
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.texto .banner{
+        height: 190px;
+        background-image: url(../img/rece.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 100px rgb(17 83 15);
+
+}
+
 
 nav.menu-lateral{
     width: 80px;
@@ -80,6 +103,52 @@ ul li.item-menu a .icon i{
     margin-left: 5px;
 }
 
+.texto h1{
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    padding: 50px 15%;
+}
+
+.texto h2 {
+    color: rgb(211, 209, 209);
+    background-color: rgb(12, 59, 11);
+    font-size: 17px;
+    align-items:center;
+    justify-content:center;
+    padding: 0 10%;
+    border-radius: 35px;
+}
+
+.texto h3{
+    color: rgb(53, 187, 53);
+    font-size: 35px;
+    
+    align-items:center;
+    justify-content:center;
+    padding: 5px 15%;
+}
+
+.texto li{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    
+    align-items:center;
+    justify-content:center;
+    padding: 15px 15%;
+}
+
+
+.texto p{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    padding: 70px 15%;
+}
+
+.fonteReceita p{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(17 83 15);
+}
 
 footer {
     width: 100%;
