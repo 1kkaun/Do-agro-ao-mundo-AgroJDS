@@ -3,106 +3,100 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Poppins';
+    font-family:'Poppins', sans-serif;
     
 }
 
-span{
-    color: rgb(136, 255, 0);
-}
 
 body{
+
     background-color: rgb(255, 255, 255);
 }
 
+nav.menu-lateral{
+    width: 80px;
+    height: 100%;
+    background-color: rgb(15, 15, 15);
+    padding: 40px 0px 40px 1%;
+    box-shadow: 3px 0 0 rgb(17 83 15);
 
-img{
-    height: 120px;
-}
-
-.container{
-    max-width: 1280px;
-    margin: auto;
-}
-
-.flex{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-header{
-    width: 100%;
-    padding: 50px 4%;
     position: fixed;
     top: 0;
     left: 0;
-    transition: .5s;
+    overflow: hidden;
+    transition: .2s;
 }
 
-header.rolagem{
-    background-color:rgb(7, 63, 0);
-    box-shadow: 0 2px 13px rgba(0, 0, 0, 0.5);
-    padding: 20px 4%;
+nav.menu-lateral:hover{
+    width: 300px;
 }
 
-header.rolagem a, header.rolagem i{
+.btn-expandir{
+    width: 100%;
+    padding-left: 10px;
+
+}
+
+.btn-expandir i{
     color: rgb(255, 255, 255);
+    font-size: 24px;
+    cursor: pointer;
 }
 
-header.rolagem button{
-    background-color: rgb(255, 255, 255);
-    color:  rgb(7, 63, 0);
-}
-
-header i{
-    font-size: 30px;
-    color: rgb(255, 255, 255);
-}
-
-header ul{
+ul{
+    height: 100%;
     list-style-type: none;
 }
 
-header ul li{
-    font-size: 23px;
-    display: inline-block;
-    margin: 0 40px;
+ul li.item-menu{
+    transition: .2s;
 }
 
-header ul li a{
-    color: rgb(255, 255, 255);
+ul li.ativo{
+    background-color: rgb(17 83 15);
+}
+
+ul li.item-menu:hover{
+    background-color: rgb(17 83 15);
+
+}
+
+
+ul li.item-menu a{
+    color:rgb(255, 255, 255);
     text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    line-height: 39px;
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 35px;
+}
+
+ul li.item-menu a .icon i{
+    font-size: 30px;
+    margin-left: 5px;
 }
 
 footer {
     width: 100%;
     font-family: 'Courier New', Courier, monospace;
-    color: rgb(17 83 15);
+    color:rgb(82, 81, 81);
     text-align: center;
     
 }
 
-
-.footer-link {
-    text-decoration: none;
-}
-
 #footer_content{
-    background-color:black;
     display:block;
     grid-template-columns: repeat(4,1fr);
 
 }
 
-#footer_contacts h1{
-    margin-bottom: 0.60rem;
-}
-
-
 #footer_turma{
     display: flex;
-    background-color: rgb(6, 15, 5);
+    background-color: rgb(14, 14, 14);
     box-shadow: 0 5px 10px rgba(0,0,0,.1);
     flex-direction:column;
     gap: 1.5rem;
@@ -117,9 +111,9 @@ footer {
 
 #footer_copyright{
     display: flex;
-    color:#00ff2d;
+    color:#ffffff;
     justify-content:center;
-    background-color:rgb(28 28 28);
+    background-color:rgb(46, 46, 46);
     
     padding: 10px;
     font-weight: 1;

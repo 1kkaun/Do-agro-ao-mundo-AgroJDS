@@ -1,32 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="imagem/x-icon" href="img/logo.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-    <title>Notícias - Do agro ao mundo</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Receitas - Do agro ao mundo</title>
+    <link rel="stylesheet" href="receitas.css">
 </head>
 <body>
-    <header id="header">
-        <div class="container">
-            <div class="flex">
-                <a href="../index.html"><div class="LOGO"><img src="img/logo.png"></div></a>
-                <nav>
-                    <ul>
-                        <li><a href="../index.html">Menu</a></li>
-                        <li><a href="../quiz teste/index.html">Quiz</a></li>
-                        <li><a href="../receitas/index.html">Receitas</a></li>
-                    </ul>
-                </nav>
-                
-                
-            </div>
+    <nav class="menu-lateral">
+        <div class="btn-expandir">
+            <i class="bi bi-list" id="btn-exp"></i>
         </div>
-    </header>
+   
+    <ul>
+        <li class="item-menu ativo">
+            <a href="../index.html">
+                <span class="icon"><i class="bi bi-house"></i></span>
+                <span class="txt-link">Menu</span>
+            </a>
+        </li>
+        <li class="item-menu">
+            <a href="../quiz teste/index.html">
+                <span class="icon"><i class="bi bi-question-circle"></i></span>
+                <span class="txt-link">Quiz</span>
+            </a>
+        </li>
+        <li class="item-menu">
+            <a href="receitas.html">
+                <span class="icon"><i class="bi bi-book"></i></span>
+                <span class="txt-link">Receitas</span>
+            </a>
+        </li>
+    </ul>
+</nav>
 
-    <footer>
+   <footer>
         <div id="footer_turma">
             <h1>Colégio Estadual Rui Barbosa</h1>
             <h2>Trabalho realizado pela turma 3° Técnico</h2>
@@ -43,6 +53,6 @@
     
 </footer>
 
-    <script src="menu.js"></script>
+    <script src="../menu.js"></script>
 </body>
 </html>
