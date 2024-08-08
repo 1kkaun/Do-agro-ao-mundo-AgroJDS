@@ -1,0 +1,1 @@
+Nosso site tem como objetivo levar notícias do mundo agro para nossos usuários, como comparativos, produção e exportações brasileiras. Além disso também temos uma página de receitas agroextrativistas, que são de práticas agrícolas sustentáveis. E por ultimo temos uma brincadeira para interagir com o usuário, um quiz com diversas perguntas sobre o assunto.
