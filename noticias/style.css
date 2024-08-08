@@ -34,6 +34,7 @@ h2{
     padding: 0 8%;
 }
 
+
 .modificar ul{
    text-align: center;
    font-size: 19px;
@@ -123,7 +124,7 @@ ul li.item-menu a .icon i{
 }
 
 .fonteNoticias p{
-    font-size: 15px;
+    font-size: 20px;
     color: white;
     background-color: rgb(17 83 15);
 }
