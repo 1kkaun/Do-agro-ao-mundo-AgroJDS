@@ -7,10 +7,52 @@
     
 }
 
+h2 span{
+    color: deepskyblue;
+}
+
+.corTxt h2 span{
+    color: rgb(0, 122, 163);
+}
 
 body{
 
     background-color: rgb(255, 255, 255);
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    padding: 0 8%;
+}
+
+.modificar ul{
+   text-align: center;
+   font-size: 19px;
+     }
+
+
+.imagem {
+    display: flex;
+    justify-content: center;
+    width: 400p;
+    height: 500px;
+    
+}
+
+.imagem2 {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 101%;
 }
 
 nav.menu-lateral{
