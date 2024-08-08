@@ -122,6 +122,12 @@ ul li.item-menu a .icon i{
     margin-left: 5px;
 }
 
+.fonteNoticias p{
+    font-size: 15px;
+    color: white;
+    background-color: rgb(17 83 15);
+}
+
 footer {
     width: 100%;
     font-family: 'Courier New', Courier, monospace;
