@@ -124,8 +124,9 @@ ul li.item-menu a .icon i{
 }
 
 .fonteNoticias p{
-    font-size: 20px;
+    font-size: 15px;
     color: white;
+    padding: 70px 15%;
     background-color: rgb(17 83 15);
 }
 
